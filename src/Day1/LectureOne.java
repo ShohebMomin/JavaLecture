@@ -1,3 +1,5 @@
+package day1;
+
 public class LectureOne {
     public static void main(String[] args){
         int age = 19;

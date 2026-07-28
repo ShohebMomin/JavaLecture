@@ -1,3 +1,5 @@
+package day6.schoolchocolatedemo;
+
 import java.util.Scanner;
 
 //each class has a quota of 20 chocolates, once the quota is reached stop the collection

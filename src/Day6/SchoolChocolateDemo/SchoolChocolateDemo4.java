@@ -1,3 +1,5 @@
+package day6.schoolchocolatedemo;
+
 //each class has a quota of 20 chocolates, once the quota is reached stop the collection
 //if any extra chocolates are collected return them back to the CT
 //odd roll numbers are boys, even roll numbers are girls

@@ -1,3 +1,5 @@
+package day6.loops;
+
 import java.util.Scanner;
 
 public class WhileLoopDemo {

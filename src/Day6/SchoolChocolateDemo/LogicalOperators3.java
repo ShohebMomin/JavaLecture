@@ -1,3 +1,5 @@
+package day6.schoolchocolatedemo;
+
 import java.util.Scanner;
 
 public class LogicalOperators3 {

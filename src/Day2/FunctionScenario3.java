@@ -1,3 +1,5 @@
+package day2;
+
 public class FunctionScenario3 {
     public static void main(String[] args){ //common man
         int length = 20; // buy

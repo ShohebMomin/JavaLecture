@@ -1,3 +1,5 @@
+package day9;
+
 /*
 * A prime number is a whole number greater than \(1\) that is only divisible by \(1\) and itself.
 * Its only factors are \(1\) and the number itself. For example, \(2, 3, 5, 7, 11\), and \(13\) are prime.

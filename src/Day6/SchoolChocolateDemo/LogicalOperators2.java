@@ -1,5 +1,4 @@
-package day8;
-
+package day6.schoolchocolatedemo;
 import java.util.Scanner;
 
 public class LogicalOperators2 {

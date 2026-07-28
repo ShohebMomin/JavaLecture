@@ -1,3 +1,5 @@
+package day9;
+
 public class OneTo1000ArmstrongNumbers {
     public static void main(String[] args) {
         armstrongNumber();

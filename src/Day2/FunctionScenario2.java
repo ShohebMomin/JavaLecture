@@ -1,3 +1,5 @@
+package day2;
+
 public class FunctionScenario2 {
     public static void main(String[] args){ // common man
         int area = areaReact(); // call
