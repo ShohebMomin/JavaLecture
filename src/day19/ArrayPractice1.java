@@ -18,7 +18,7 @@ public class ArrayPractice1 {
             amount = amount%currency[i];
        }
        for(int j = 0 ; j<notes.length;j++){
-           if(notes[j] !=0) System.out.println(currency[j] + " " + notes[j]);
+           if(notes[j] !=0) System.out.println(currency[j]+ " x " + notes[j]);
        }
    }
 
