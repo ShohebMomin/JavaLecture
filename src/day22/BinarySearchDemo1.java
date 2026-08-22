@@ -11,12 +11,13 @@ public class BinarySearchDemo1 {
     public static void binarySearch(int arr[],int start,int end,int search){
         while (start<=end){
             int mid = (start+end)/2;
-            if(mid == search){
-                System.out.println("Found at:  " + mid);
+            if(arr[mid] == search){
+                System.out.println("Found at: "+  mid);
+                break;
             }else if(arr[mid]<search){
                 start =mid+1;
             }else{
-                start = mid-1;
+                end = mid-1;
             }
         }
     }

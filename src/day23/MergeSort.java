@@ -9,7 +9,6 @@ public class MergeSort {
        mergeSorting(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
-
     private static void mergeSorting(int[] arr,int left,int right) {
         if(left< right){
             int mid = (left+right)/2;
