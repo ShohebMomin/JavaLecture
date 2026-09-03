@@ -1,0 +1,92 @@
+[
+  {
+    "playerNumber": 1,
+    "playerName": "Virat Kohli",
+    "catchesTaken": 150,
+    "wicketsTaken": 4,
+    "trophiesWon": 8,
+    "runScored": 27000,
+    "playedCountry": "India"
+  },
+  {
+    "playerNumber": 2,
+    "playerName": "Rohit Sharma",
+    "catchesTaken": 100,
+    "wicketsTaken": 2,
+    "trophiesWon": 6,
+    "runScored": 19000,
+    "playedCountry": "India"
+  },
+  {
+    "playerNumber": 3,
+    "playerName": "MS Dhoni",
+    "catchesTaken": 350,
+    "wicketsTaken": 1,
+    "trophiesWon": 5,
+    "runScored": 17000,
+    "playedCountry": "India"
+  },
+  {
+    "playerNumber": 4,
+    "playerName": "Jasprit Bumrah",
+    "catchesTaken": 70,
+    "wicketsTaken": 450,
+    "trophiesWon": 3,
+    "runScored": 2500,
+    "playedCountry": "India"
+  },
+  {
+    "playerNumber": 5,
+    "playerName": "Ben Stokes",
+    "catchesTaken": 120,
+    "wicketsTaken": 200,
+    "trophiesWon": 4,
+    "runScored": 11000,
+    "playedCountry": "England"
+  },
+  {
+    "playerNumber": 6,
+    "playerName": "Joe Root",
+    "catchesTaken": 130,
+    "wicketsTaken": 60,
+    "trophiesWon": 3,
+    "runScored": 19000,
+    "playedCountry": "England"
+  },
+  {
+    "playerNumber": 7,
+    "playerName": "Steve Smith",
+    "catchesTaken": 140,
+    "wicketsTaken": 50,
+    "trophiesWon": 2,
+    "runScored": 16000,
+    "playedCountry": "Australia"
+  },
+  {
+    "playerNumber": 8,
+    "playerName": "Pat Cummins",
+    "catchesTaken": 80,
+    "wicketsTaken": 300,
+    "trophiesWon": 3,
+    "runScored": 3500,
+    "playedCountry": "Australia"
+  },
+  {
+    "playerNumber": 9,
+    "playerName": "Babar Azam",
+    "catchesTaken": 90,
+    "wicketsTaken": 10,
+    "trophiesWon": 1,
+    "runScored": 14000,
+    "playedCountry": "Pakistan"
+  },
+  {
+    "playerNumber": 10,
+    "playerName": "Kane Williamson",
+    "catchesTaken": 110,
+    "wicketsTaken": 40,
+    "trophiesWon": 2,
+    "runScored": 13000,
+    "playedCountry": "New Zealand"
+  }
+]

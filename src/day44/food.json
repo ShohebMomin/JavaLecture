@@ -1,0 +1,26 @@
+[
+  {
+    "foodName": "Pizza",
+    "category": "Fast Food",
+    "price": 299,
+    "isVegetarian": true
+  },
+  {
+    "foodName": "Burger",
+    "category": "Fast Food",
+    "price": 199,
+    "isVegetarian": false
+  },
+  {
+    "foodName": "Biryani",
+    "category": "Main Course",
+    "price": 250,
+    "isVegetarian": false
+  },
+  {
+    "foodName": "Paneer Tikka",
+    "category": "Starter",
+    "price": 220,
+    "isVegetarian": true
+  }
+]
