@@ -11,7 +11,7 @@ public class WordOccuranceInSentance {
         String sentance="java is programming language i like java i speak marathi language";
         //String sentance="twinkle twinkle little star how i wonder what you are";
 
-        Map<String,Integer> hashmap=new HashMap();
+        Map<String,Integer> hashmap=new HashMap<>();
 
         String words[]=sentance.split(" "); //["twinkle", "twinkle", "little", "star", how i wonder what you are"];
 

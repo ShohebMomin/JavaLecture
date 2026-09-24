@@ -3,15 +3,15 @@ package day53;
 import java.util.HashMap;
 import java.util.Map;
 
-public class WordOccuranceInSentance2 {
+public class WordOccurrenceInSentence2 {
 
     public static void main(String[] args) {
-        String sentance="java is programming language i like java i speak marathi language";
-        //String sentance="twinkle twinkle little star how i wonder what you are";
+        String sentence ="java is programming language i like java i speak marathi language";
+        //String sentence="twinkle twinkle little star how i wonder what you are";
 
         Map<String,Integer> hashmap=new HashMap<>();
 
-        String words[]=sentance.split(" "); //["twinkle", "twinkle", "little", "star", how i wonder what you are"];
+        String words[]= sentence.split(" "); //["twinkle", "twinkle", "little", "star", how i wonder what you are"];
 
         for(String word:words)	//word=twinkle
             hashmap.put(word, hashmap.getOrDefault(word, 0)+1);

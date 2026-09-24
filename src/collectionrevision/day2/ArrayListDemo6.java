@@ -1,4 +1,213 @@
 package collectionrevision.day2;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class ArrayListDemo6 {
+
+    public static void main(String[] args) {
+
+        Player rohit = new Player(
+                45,
+                "Rohit Sharma",
+                250,
+                11000,
+                100,
+                0,
+                1000,
+                300,
+                30,
+                "Batsman",
+                List.of("World Cup", "Champions Trophy", "IPL")
+        );
+
+        Player surya = new Player(
+                63,
+                "Suryakumar Yadav",
+                150,
+                5000,
+                80,
+                0,
+                500,
+                250,
+                5,
+                "Batsman",
+                List.of("T20 World Cup", "IPL")
+        );
+
+        Player pandya = new Player(
+                33,
+                "Hardik Pandya",
+                180,
+                4500,
+                90,
+                150,
+                350,
+                200,
+                0,
+                "All Rounder",
+                List.of()
+        );
+
+        Player bumrah = new Player(
+                93,
+                "Jasprit Bumrah",
+                180,
+                500,
+                70,
+                350,
+                30,
+                5,
+                0,
+                "Bowler",
+                List.of("World Cup", "Champions Trophy")
+        );
+
+        Player boult = new Player(
+                18,
+                "Trent Boult",
+                150,
+                400,
+                60,
+                300,
+                20,
+                2,
+                0,
+                "Bowler",
+                List.of("World Cup", "IPL")
+        );
+
+        Player williamson = new Player(
+                22,
+                "Kane Williamson",
+                200,
+                9000,
+                100,
+                0,
+                800,
+                100,
+                25,
+                "Batsman",
+                List.of("World Test Championship")
+        );
+
+        Player ghazanfar = new Player(
+                21,
+                "Allah Ghazanfar",
+                20,
+                100,
+                5,
+                25,
+                5,
+                2,
+                0,
+                "Bowler",
+                List.of()
+        );
+
+        Player nabi = new Player(
+                7,
+                "Mohammad Nabi",
+                200,
+                3500,
+                100,
+                200,
+                300,
+                100,
+                0,
+                "All Rounder",
+                List.of("Asia Cup", "IPL")
+        );
+
+        Player quinton = new Player(
+                12,
+                "Quinton de Kock",
+                180,
+                8000,
+                150,
+                0,
+                750,
+                150,
+                25,
+                "Wicket Keeper Batsman",
+                List.of("World Cup", "IPL")
+        );
+
+        Player steyn = new Player(
+                8,
+                "Dale Steyn",
+                100,
+                400,
+                50,
+                400,
+                30,
+                2,
+                0,
+                "Bowler",
+                List.of("IPL")
+        );
+
+        Player sachin = new Player(
+                8,
+                "Sachin Tendulkar",
+                200,
+                800,
+                100,
+                800,
+                30,
+                2,
+                0,
+                "Batsmen",
+                List.of("IPL","World Cup", "Champions Trophy")
+        );
+
+        List<Player> csk=new ArrayList<>();
+        csk.add(rohit);
+        csk.add(surya);
+        csk.add(pandya);
+        csk.add(bumrah);
+        csk.add(sachin);
+        csk.add(ghazanfar);
+        csk.add(nabi);
+
+        List<Player> rcb=new ArrayList<>();
+        rcb.add(boult);
+        rcb.add(quinton);
+        rcb.add(williamson);
+        rcb.add(steyn);
+
+
+        List<List<Player>> ipl = new ArrayList<>();
+
+        ipl.add(csk);
+        ipl.add(rcb);
+        System.out.println(ipl.size());
+
+        for(int i  = 0; i<ipl.size(); i++){
+            System.out.println("Team " + (i+1) + " has " + ipl.get(i).size() + " players." );
+        }
+
+        //display name of players from each team who has scored >2000 runs and taken >100 wickets
+        //player from team 1 who have scored >2000 runs and taken >100 wickets are as follows
+        //Steyn
+        //Bumrah
+        //player from team 2 who have scored >2000 runs and taken >100 wickets are as follows
+        //Sachin
+        //Rohit
+
+        for(int i  = 0; i<ipl.size(); i++){
+            for(int j = 0; j< ipl.get(i).size(); j++){
+                if(ipl.get(i).get(j).getRunsScored() >= 2000 && ipl.get(i).get(j).getWicketsTaken()>=100){
+                    System.out.println("Player from team " + (i+1) +" who have scored > 2000 runs and taken >100 wickets are as follows "+ ipl.get(i).get(j).getPlayerName());
+                }
+            }
+        }
+        for( List<Player> team: ipl){
+            Collections.sort(team, new CenturiesBy());
+        }
+        System.out.println("Centuries by " + ipl.get(0).get(0).getPlayerName() + " " + ipl.get(0).get(0).getCenturies());
+        
+    }
+
 }
